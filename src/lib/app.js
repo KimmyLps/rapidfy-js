@@ -8,10 +8,10 @@ var MiddlewareManager = require('./middleware');
 exports = module.exports = createApplication;
 
 function createApplication() {
-    return new Rapidfy();
+    return new RapidfyJS();
 }
 
-class Rapidfy {
+class RapidfyJS {
     constructor() {
         this.router = createRouter();
         this.middleware = new MiddlewareManager();

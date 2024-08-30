@@ -1,13 +1,13 @@
 {
   "name": "rapidfy-js",
   "version": "1.0.0",
-  "description": "Rapidfy is a simple and fast way to create a new project",
+  "description": "RapidfyJS is a simple and fast way to create a new project",
   "main": "index.js",
   "scripts": {
     "dev": "node examples/v1/index.js",
     "test": "jest"
   },
-  "repository": "https://github.com/KimmyLps/rapidfy.git",
+  "repository": "https://github.com/KimmyLps/rapidfy-js.git",
   "publishConfig": {
     "@KimmyLps:registry": "https://npm.pkg.github.com"
   },
@@ -21,9 +21,9 @@
   "author": "KimmyLps",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KimmyLps/rapidfy/issues"
+    "url": "https://github.com/KimmyLps/rapidfy-js/issues"
   },
-  "homepage": "https://github.com/KimmyLps/rapidfy#readme",
+  "homepage": "https://github.com/KimmyLps/rapidfy-js#readme",
   "devDependencies": {
     "jest": "^29.7.0"
   },
