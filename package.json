@@ -1,6 +1,6 @@
 {
   "name": "rapidfy-js",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "RapidfyJS is a simple and fast way to create a new project",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,6 @@
   "dependencies": {
     "doctrine": "^3.0.0",
     "lodash.mergewith": "^4.6.2",
-    "swagger-jsdoc": "^6.2.8",
     "swagger-parser": "^10.0.3",
     "yaml": "^2.5.0"
   }
