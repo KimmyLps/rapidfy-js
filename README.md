@@ -104,25 +104,6 @@ app.use('/api/v1', router);
 app.listen(4000, () => console.log('🚀 RapidfyJS running on port 4000'));
 
 ```
-
-3. Initial the application
-```javascript
-const app = rapidfyJs();
-```
-
-4. Define your routes and middleware functions:
-```javascript
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
-});
-
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
-```
-
-4. Start the server by running `node app.js` in your terminal.
-
 ## Features
 
 ### 🧱 Middleware Usage
@@ -155,6 +136,17 @@ app.use(rapidfyJs.formData({
   fieldSize: 10 * 1024,
   fields: 20,
 }));
+```
+
+Prefix router
+```javascript
+const router = rapidfyJs.Router({ prefix: '/api/v1' });
+router.get('/profile', (req, res) => {
+  res.status(200).json({ user: 'Kimmy', role: 'admin' });
+});
+app.use(router);
+
+// Ex. http://localhost:3000/api/v1/profile
 ```
 
 ### 💾 Database Integration
