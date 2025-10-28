@@ -7,4 +7,4 @@
 
 'use strict';
 
-module.exports = require('./src/lib/app');
+module.exports = require('./src/core/ApplicationFactory');
